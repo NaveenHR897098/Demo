@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-03T09:32:26 IST" name="Suite" finished-at="2021-11-03T09:34:09 IST" duration-ms="103394">
+    <groups>
+    </groups>
+    <test started-at="2021-11-03T09:32:26 IST" name="Test2" finished-at="2021-11-03T09:33:52 IST" duration-ms="86152">
+      <class name="TestNg.CrossBrowser">
+        <test-method signature="cross(java.lang.String)[pri:0, instance:TestNg.CrossBrowser@1da2cb77]" started-at="2021-11-03T09:32:26 IST" name="cross" finished-at="2021-11-03T09:33:52 IST" duration-ms="86039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cross -->
+      </class> <!-- TestNg.CrossBrowser -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-11-03T09:32:26 IST" name="Test1" finished-at="2021-11-03T09:34:09 IST" duration-ms="103394">
+      <class name="TestNg.CrossBrowser">
+        <test-method signature="cross(java.lang.String)[pri:0, instance:TestNg.CrossBrowser@34f5090e]" started-at="2021-11-03T09:32:26 IST" name="cross" finished-at="2021-11-03T09:34:09 IST" duration-ms="103345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cross -->
+      </class> <!-- TestNg.CrossBrowser -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
